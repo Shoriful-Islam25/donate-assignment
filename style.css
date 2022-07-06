@@ -76,6 +76,74 @@ body {font-family: 'Ubuntu', sans-serif;
   border-bottom: 2px solid gray;
   
 }
+.donation-box2{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+.box-item{
+  width: 25%;
+  height: 300px;
+  margin: 15Px 15PX;
+  padding: 20px;
+}
+.img-campaign{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.text-campaign{
+  text-align: center;
+  margin-top: 100px;
+
+}
+.c-img{
+  width: 25%;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px gray;
+}
+.icons{
+  margin-bottom: 20px;
+}
+.food{
+  background-color: rgb(220, 244, 236);
+}
+.shelter{
+  background-color: rgb(240, 212, 221);
+}
+.education{
+  background-color: rgb(237, 207, 202);
+}
+.updates{
+  text-align: center;
+  margin-top: 60px;
+}
+.email{
+width: 50%;
+height: 100px;
+display: flex;
+justify-content: center;
+padding: 50px 50px;
+margin: 50px auto ;
+background-color: rgb(224, 215, 214);
+}
+#field{
+  height: 30px;
+  width:300px;
+  margin-top: 25px;
+ 
+}
+button {
+  height: 33px;
+  width: 100px;
+  color: white;
+  background-color: rgb(214, 97, 77);
+  border: none;
+  margin-top: 25px;
+}
 h1{
   font-size: 60px;
   font-weight: bold;
@@ -83,7 +151,30 @@ h1{
 h2{
   font-size: 40px;
   font-weight: bold;
+  margin-bottom: 15px;
+  color: coral;
+}
+h3{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+h4{
+  color:  rgb(214, 97, 77);
+  padding: 40px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 p{
   font-size: 20px;
+}
+footer{
+  margin-top: 150px;
+  text-align: center;
+  height: 200px;
+  background-color: black;
+}
+footer p{
+  color: white;
+ 
 }
