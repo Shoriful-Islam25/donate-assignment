@@ -14,6 +14,7 @@ body {font-family: 'Ubuntu', sans-serif;
 }
 .banner-text{
   height: 100%;
+
   width: 100%;
   display: flex;
   justify-content: center;
@@ -74,13 +75,11 @@ body {font-family: 'Ubuntu', sans-serif;
   border: none;
   text-align: center;
   border-bottom: 2px solid gray;
-  
 }
 .donation-box2{
   display: flex;
   justify-content: center;
   margin-top: 30px;
-
 }
 .box-item{
   width: 25%;
@@ -92,12 +91,10 @@ body {font-family: 'Ubuntu', sans-serif;
   display: flex;
   justify-content: center;
   margin-top: 50px;
-
 }
 .text-campaign{
   text-align: center;
   margin-top: 100px;
-
 }
 .c-img{
   width: 25%;
@@ -134,7 +131,6 @@ background-color: rgb(224, 215, 214);
   height: 30px;
   width:300px;
   margin-top: 25px;
- 
 }
 button {
   height: 33px;
@@ -176,5 +172,4 @@ footer{
 }
 footer p{
   color: white;
- 
 }
