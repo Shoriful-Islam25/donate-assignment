@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding: 0%;
+}
+body {font-family: 'Ubuntu', sans-serif;
+}
+.banner{
+  background-image: url(images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+   margin-bottom: 100px;
+}
+.banner-text{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+#heading-text{
+  margin-bottom: 15px;
+}
+.btn{
+  background-color: rgb(214, 97, 77);
+  text-decoration: none;
+  padding: 15px;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.donation{
+  margin-bottom: 100px;
+}
+.donation-text{
+  text-align: center;
+  color: black;
+}
+.donation-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 40px 0;
+}
+.donation-box p{
+  margin: 15px;
+  text-align: center;
+  padding: 40px 30px;
+  background-color: aliceblue;
+  color: gray;
+  font-size: 30px;
+  font-weight: bold;
+}
+#mark{
+  border: 2px solid red;
+  color: red;
+}
+.amount-input{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#input{
+  padding: 10px 300px;
+  font-size: 20px;
+  background-color: aliceblue;
+  color: gray;
+  border: none;
+  text-align: center;
+  border-bottom: 2px solid gray;
+  
+}
+h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+p{
+  font-size: 20px;
+}
